@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+    
+}
+
+h2 {
+    color: green;
+    
+}
+
+h3 {
+    color: blue;
+    
+}
+
+#param1 {
+    color: red;
+}
+
+.link {
+    color: green;
+    
+}
+
+.headlines {
+    text-align: center;
+}
+
+.centerDiv {
+    text-align: center;
+}
+
+.names {
+    display: flex;
+    flex-direction: row;
+}

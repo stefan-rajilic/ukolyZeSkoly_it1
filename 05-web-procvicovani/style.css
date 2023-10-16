@@ -1,0 +1,92 @@
+.navbar {
+    padding: 10px; /* Vnitřní odsazení od krajů */
+    display: flex; /* Zapnutí flexboxu - bloky jsou vedle sebe */
+    margin-top: 5px;
+}
+
+.carsOptions { /* Menu pro auta pod mainImg */
+    display: flex;
+    justify-content: space-evenly; /* Rozloží itemy aby měli stejné mezery */
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: grey;
+    color: white;
+}
+
+.cons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cons input {
+    margin-top: 10px;
+    margin-right: 7px;
+}
+
+.form button {
+    max-width: 200px;
+    margin: auto;
+    display: block; 
+}
+
+
+h3 {  /* Upravení nadpisu: H3 */
+    text-align: center; /* Zarovná text doprostřed */
+}
+
+.videos {
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+
+body {
+    margin: 0; /* Odstraní bíle okraje na stránce */
+}
+
+.mainFoto {
+    margin-top: 5px;
+}
+
+.navbar a { /* ALTGR + B = {} */
+    text-decoration: none; /* Odstranění podtržení */
+    color: black; /* Černý text */
+    font-size: x-large; /* Zvětšení textu */
+    margin-left: 30px;
+}
+
+.navbar a:hover { /* Úprava vzhledu při najetí na A */
+    color: red; /* Červený text */
+}
+
+.navLinks {
+    margin-top: 5px; /* Oddálení od horního kraje */
+}
+
+.form {
+    display: flex;
+    flex-direction: column; /* Zarovná do sloupce */
+    text-align: center; /* Dá obsah do středu */
+    margin-bottom: 20px;
+    border: .1px solid black; /* Přidání okrajů; šířka, barva, typ */
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px .1px rgba(194, 194, 194, 0.632);
+}
+
+.form input {
+    margin-bottom: 10px !important; /* Mezera od zdola 10px; IMPORTANT = priorita #1 */
+}
+
+#userEmail, #userName {
+    margin: auto;
+    display: block; 
+}
