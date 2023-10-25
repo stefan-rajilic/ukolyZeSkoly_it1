@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- 
+    Část 1.:
+    Vytvořit program na výpočet pythagorovy věty
+    na inputu získáte a,b a na základě jich vypočítá c
+    a vypíše to na stránku (Jak se to vypíše je na vás 
+    NE CONSOLE.LOG!)
+
+    Math.sqrt(c) = odmocení
+    c.toFixed(1) = zaokrouhlení na 0,1
+
+    Část 2.:
+    Uživatel vyplní jakékoliv 2 hodnoty a 3. se vyplní
+-->
+
+<h1>Pythagorova věta - kalkulačka</h1>
+
+<label for="a">Velikost a:</label>
+<input type="number" id="a" placeholder="A">
+<br>
+
+<label for="b">Velikost b:</label>
+<input type="number" id="b" placeholder="B">
+<br>
+
+<label for="c">Velikost c:</label>
+<input type="number" id="c" placeholder="C">
+<br>
+
+<button onclick="calculateC()">Vypočítat c</button>
+<br>
+<button onclick="calculateMissingValue()">Vypočítat chybějíci hodnotu</button>
+
+<br><br><br><br>
+
+<input type="number" id="1" placeholder="1">
+<input type="number" id="2" placeholder="2">
+<input type="number" id="3" placeholder="3">
+
+<button onclick="nameOfFunction()">START</button>
+
+
+
+
+
+
+
+</body>
+</html>
