@@ -1,0 +1,32 @@
+.card {
+  display: block;
+  align-items: center;
+  min-width: 33vw;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .card img {
+    width: 30vw !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card img {
+    width: 40vw !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .card img {
+    width: 45vw !important;
+  }
+}
