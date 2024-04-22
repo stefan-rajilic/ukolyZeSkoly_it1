@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nákupní Seznam</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Kontejner pro udržení obsahu webu dohromady a usnadnění stylingu -->
+    <div class="container">
+        <!-- Hlavička stránky s názvem aplikace -->
+        <h1>Nákupní seznam</h1>
+        
+        <!-- Vstupní pole, kam uživatel zadává položky, které chce přidat do seznamu -->
+        <input type="text" id="itemInput" placeholder="Přidejte položku" class="form-control">
+        
+        <!-- Tlačítko, které po kliknutí spustí funkci 'addItem' definovanou v JavaScriptu -->
+        <!-- 'addItem' přidá zadanou položku do LocalStorage a aktualizuje zobrazení seznamu -->
+        <button onclick="addItem()" class="btn btn-primary mt-2">Přidat</button>
+        
+        <!-- Div element, který bude použit pro dynamické zobrazení položek seznamu -->
+        <!-- JavaScriptový kód bude vkládat do tohoto elementu položky na základě dat uložených v LocalStorage -->
+        <div id="shoppingLists" class="mt-3"></div>
+    </div>
+    
+    <!-- Odkaz na externí soubor JavaScript, který obsahuje logiku aplikace -->
+    <!-- Všechny funkce potřebné pro správu nákupního seznamu jsou definovány v souboru 'script.js' -->
+    <script src="script.js"></script>
+</body>
+
+</html>
